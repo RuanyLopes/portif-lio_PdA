@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    visibility: visible;
+}
+
+body {
+    background-color: rgb(4, 48, 15);
+    height: 100dvh;
+    width: 100dvw;
+}
+
+#cabeca {
+    height: 6dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 77, 63);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 94dvh;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius:50% ;
+}
+#caixa{
+    background-color: rgb(30, 102, 85);
+height: 100%;
+    width: 70%;
+    padding: 15px;
+}
